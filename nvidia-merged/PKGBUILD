@@ -2,8 +2,8 @@
 
 pkgbase='nvidia-merged'
 pkgname=('lib32-nvidia-merged-utils' 'lib32-opencl-nvidia-merged' 'nvidia-merged-dkms' 'nvidia-merged-settings' 'nvidia-merged-utils' 'opencl-nvidia-merged')
-pkgver=525.85.05
-pkgrel=3
+pkgver=525.125.06
+pkgrel=1
 arch=('x86_64')
 url="https://github.com/mini-bomba/PKGBUILDs"
 license=('custom')
@@ -11,7 +11,7 @@ options=('!strip')
 makedepends=('patchelf' 'git' 'rust')
 groups=('nvidia-merged')
 _pkg="NVIDIA-Linux-x86_64-${pkgver}-merged-vgpu-kvm-patched"
-_vgpu_pkgver=525.85.07
+_vgpu_pkgver=525.125.03
 source=('nvidia-drm-outputclass.conf'
         'nvidia-utils.sysusers'
         'nvidia.rules'
@@ -23,7 +23,7 @@ source=('nvidia-drm-outputclass.conf'
 sha512sums=('de7116c09f282a27920a1382df84aa86f559e537664bb30689605177ce37dc5067748acf9afd66a3269a6e323461356592fdfc624c86523bf105ff8fe47d3770'
             '4b3ad73f5076ba90fe0b3a2e712ac9cde76f469cd8070280f960c3ce7dc502d1927f525ae18d008075c8f08ea432f7be0a6c3a7a6b49c361126dcf42f97ec499'
             'a0ceb0a6c240cf97b21a2e46c5c212250d3ee24fecef16aca3dffb04b8350c445b9f4398274abccdb745dd0ba5132a17942c9508ce165d4f97f41ece02b0b989'
-            '47200e9667b6c5a07df14f63eacf5dacb5fff92fd3a62921d0324fc73c7d6beba837d0ff598906ffeb8cf3a8dd789aae03afc11d72fcf992822f2594d21b8198'
+            'SKIP'
             'ec408cb6549a07f87c5763b53180866fd748dd3ae7f428e803953fcf4d4ce493a2abdc7e5598ad736c8fe7e031bae9eadedc58d3091d24fc5902d6e70fd2e0c2'
             'bddbaaa21b01de3cd5ff53a5fcc8302f76fb21bc32be6113f4184192dc153fab3f5784d7d453c766d1e2bc9dd45d3a5738f7275371aa4ee4c7ae997c97f82b49'
             '04b42b8d6693b38fadf3d176e0516259dd71d4dc670c1bbc8f38f47f9e8ca8277874c8d3fc621617d45dc57a2ba78e243bada406be7518f3f0e49ee4a31f8b13'

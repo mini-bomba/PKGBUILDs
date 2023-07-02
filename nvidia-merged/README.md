@@ -3,7 +3,7 @@
 A PKGBUILD for NVIDIA merged drivers made with [vGPU-Unlock-patcher](https://github.com/VGPU-Community-Drivers/vGPU-Unlock-patcher).
 Includes [vgpu_unlock-rs](https://github.com/mbilker/vgpu_unlock-rs).
 
-Made for version 525.85.05. You may need to edit the PKGBUILD if you're using a different version - package version at least.
+Made for version 525.125.06. You may need to edit the PKGBUILD if you're using a different version - package version at least.
 
 ## Building
 
